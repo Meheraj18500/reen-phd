@@ -1,0 +1,131 @@
+
+/* @media (max-width: 575.98px) { ... } */
+
+/* @media (max-width: 767.98px) { ... } */
+
+/* @media (max-width: 991.98px) { ... } */
+
+/* @media (max-width: 1199.98px) { ... } */
+
+
+
+@media (max-width: 1199.98px) {
+    .hero_area .hero_content h1{
+        font-size:60px
+    }
+}
+
+@media (max-width: 991.98px) {
+    .left_bar, .right_bar{
+        text-align: center !important;
+    }
+    .left_bar{
+        margin-bottom: 8px;
+    }
+    nav .navbar-nav li .nav-link,
+    nav .navbar-nav li.active .nav-link{
+        display: block;
+        border: none;
+        margin: 5px 0;
+    }
+    .search-icon{
+        display: none;
+    }
+    nav .navbar-nav li:hover .nav-link,
+    nav .navbar-nav li.active:hover .nav-link{
+        background: #f5f7fa;
+        color: #00bc9c !important;
+        border: none;
+        border-radius: 0;
+    }
+    .dropdown_window{
+        display: none;
+    }
+    .hero_area .hero_content{
+        width: 85%;
+        padding: 150px 0;
+    }
+    .hero_area .hero_content h1{
+        font-size:45px
+    }
+    .hero_area .hero_content p{
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .hero_area .hero_content a{
+        margin-top: 20px;
+        padding: 8px 25px;
+    }
+    .section_description{
+        font-size: 17px;
+    }
+    .about_section .card{
+        margin: 20px 0;
+    }
+    .about_section .card .about_content h4{
+        margin-bottom: 10px;
+    }
+    .about_section .card .icon {
+        width: 50px;
+        height: 50px;
+        margin-right: 30px;
+    }
+    .footer_section .widget{
+        margin: 20px 0;
+    }
+    .footer_bottom{
+        padding: 8px 0;
+    }
+    .footer_bottom ul,
+    .footer_bottom p{
+        text-align: center !important;
+        margin: 5px 0;
+    }
+    .footer_bottom ul{
+        float: none;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .section_heading {
+        font-size: 35px;
+        margin-bottom: 12px;
+    }
+    .portfolio_section .port_item{
+        margin: 15px 0;
+    }
+    .footer_section .widget_heading{
+        font-size: 25px;
+    }
+    .footer_section .widget{
+        margin: 25px 0;
+    }
+    .right_bar{
+        display: none;
+    }
+    .left_bar{
+        margin: 0;
+    }
+    .footer_bottom ul{
+        display: none;
+    }
+    .hero_area .hero_content{
+        width: 95%;
+    }
+    .portfolio_section .card{
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .container{
+        width: 90%;
+    }
+}
+
+@media (max-width: 419.98px){
+    .container{
+        width: 95%;
+    }
+}
